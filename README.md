@@ -42,4 +42,25 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure  
+student-management-system/
+│
+├── backend/
+│ ├── routes/
+│ │ └── studentRoutes.js
+│ ├── models/
+│ │ └── Student.js
+│ ├── server.js
+│ └── package.json
+│
+└── frontend/
+└── src/
+└── app/
+├── app.module.ts
+├── app.component.ts / html / css
+├── student.model.ts
+├── student.service.ts
+├── student-form.component.*
+└── student-list.component.*
+
+---
 
