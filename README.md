@@ -41,7 +41,8 @@ This project demonstrates:
 
 ---
 
-## 📂 Project Structure  
+### 📂 Project Structure
+```
 student-management-system/
 │
 ├── backend/
@@ -66,5 +67,4 @@ student-management-system/
             ├── student-form.component.css
             ├── student-list.component.ts
             ├── student-list.component.html
-            └── student-list.component.css
----
+            └── student-list.component.cs
