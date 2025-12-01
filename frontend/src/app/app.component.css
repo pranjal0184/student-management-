@@ -1,0 +1,27 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.layout {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+}

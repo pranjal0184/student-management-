@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+  <div class="layout">
+    <div class="left">
+      <app-student-form
+        [student]="selectedStudent"
+        (formSubmitted)="onClearSelection()">
+      </app-student-form>
+    </div>
+    <div class="right">
+      <app-student-list
+        (editStudent)="onEdit($event)">
+      </app-student-list>
+    </div>
+  </div>
+</div>

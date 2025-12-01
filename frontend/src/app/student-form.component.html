@@ -1,0 +1,51 @@
+<div class="card">
+  <h2>{{ isEditMode ? 'Edit Student' : 'Add Student' }}</h2>
+
+  <form (ngSubmit)="onSubmit()" #studentForm="ngForm">
+    <div class="field">
+      <label for="name">Name</label>
+      <input
+        id="name"
+        name="name"
+        type="text"
+        [(ngModel)]="model.name"
+        required />
+    </div>
+
+    <div class="field">
+      <label for="age">Age</label>
+      <input
+        id="age"
+        name="age"
+        type="number"
+        [(ngModel)]="model.age"
+        required />
+    </div>
+
+    <div class="field">
+      <label for="course">Course</label>
+      <input
+        id="course"
+        name="course"
+        type="text"
+        [(ngModel)]="model.course"
+        required />
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        [(ngModel)]="model.email"
+        required />
+    </div>
+
+    <button type="submit">
+      {{ isEditMode ? 'Update' : 'Add' }} Student
+    </button>
+  </form>
+
+  <p class="message" *ngIf="message">{{ message }}</p>
+</div>
