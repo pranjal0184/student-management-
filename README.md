@@ -45,22 +45,26 @@ This project demonstrates:
 student-management-system/
 │
 ├── backend/
-│ ├── routes/
-│ │ └── studentRoutes.js
-│ ├── models/
-│ │ └── Student.js
-│ ├── server.js
-│ └── package.json
+│   ├── routes/
+│   │   └── studentRoutes.js
+│   ├── models/
+│   │   └── Student.js
+│   ├── server.js
+│   └── package.json
 │
 └── frontend/
-└── src/
-└── app/
-├── app.module.ts
-├── app.component.ts / html / css
-├── student.model.ts
-├── student.service.ts
-├── student-form.component.*
-└── student-list.component.*
-
+    └── src/
+        └── app/
+            ├── app.module.ts
+            ├── app.component.ts
+            ├── app.component.html
+            ├── app.component.css
+            ├── student.model.ts
+            ├── student.service.ts
+            ├── student-form.component.ts
+            ├── student-form.component.html
+            ├── student-form.component.css
+            ├── student-list.component.ts
+            ├── student-list.component.html
+            └── student-list.component.css
 ---
-
