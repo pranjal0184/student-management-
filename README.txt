@@ -1,18 +1,27 @@
-📘 Student Management System
+🌟 Student Management System
 Full Stack Project using Angular, Node.js, Express & MongoDB
-📖 Project Overview
+📌 Overview
 
-The Student Management System is a simple full-stack web application used to manage student records. It allows users to:
+The Student Management System is a simple full-stack web application used to manage student records.
+It includes all basic CRUD features:
 
-Add new students
+➕ Add new students
 
-View all students
+📄 View all students
 
-Update existing student details
+✏️ Update student details
 
-Delete student records
+🗑️ Delete student records
 
-It demonstrates complete CRUD operations, REST API usage, Angular UI development, and database integration using MongoDB.
+This project demonstrates:
+
+REST API development using Node.js + Express
+
+UI development using Angular
+
+Database integration using MongoDB
+
+Clean modular architecture
 
 🛠 Tech Stack
 Frontend
@@ -33,7 +42,7 @@ Node.js
 
 Express.js
 
-Mongoose (MongoDB ORM)
+Mongoose
 
 Database
 
@@ -53,8 +62,8 @@ student-management-system/
 └── frontend/
     └── src/
         └── app/
-            ├── app.component.*
             ├── app.module.ts
+            ├── app.component.ts / html / css
             ├── student.model.ts
             ├── student.service.ts
             ├── student-form.component.*
